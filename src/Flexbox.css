@@ -1,0 +1,66 @@
+.gridContainer{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    height: 700px;
+    width: 700px;
+    margin: auto;
+    gap: 4px;
+}
+.gridContainer > h1{
+    margin: 0;  
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    width: 200px;
+}
+.grid1{
+    background-color: rgb(0, 247, 255);
+}
+.grid2{
+    background-color: wheat;
+}
+.grid3{
+    background-color: orange;
+}
+.grid4{
+    background-color: gray;
+}
+.grid5{
+    background-color: beige;
+}
+.grid6{
+    background-color: tomato;
+}
+.grid7{
+    background-color: rgb(255, 208, 0);
+}
+.grid8{
+    background-color: greenyellow;
+}
+.grid9{
+    background-color: darkcyan;
+}
+.grid10{
+    background-color: pink;
+}
+.grid11{
+    background-color: cornsilk;
+}
+.grid12{
+    background-color: blueviolet;
+}
+.grid13{
+    background-color: tomato;
+}
+.grid14{
+    background-color: tan;
+}
+.grid15{
+    background-color: yellow;
+}
+.grid16{
+    background-color: blue;
+}
